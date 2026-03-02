@@ -22,18 +22,21 @@ with no arguments for an interactive TUI, or pass files/flags for quick CLI use.
 | `ffprobe` | Video metadata |
 | `ffplay` | Rotation preview |
 | `mpv` | Interactive clip marking |
-| `chafa` | *(optional)* Thumbnail previews in file picker |
+| `chafa` | *(optional)* Thumbnail previews in the file picker |
 
 ```
 # Arch Linux
-sudo pacman -S ffmpeg mpv
+sudo pacman -S ffmpeg mpv chafa
 
 # Ubuntu/Debian
-sudo apt install ffmpeg mpv
+sudo apt install ffmpeg mpv chafa
 
 # macOS
-brew install ffmpeg mpv
+brew install ffmpeg mpv chafa
 ```
+
+> **Note:** `chafa` is optional but recommended — without it the file picker
+> shows filenames only; with it you get inline video thumbnails.
 
 ## Installation
 
